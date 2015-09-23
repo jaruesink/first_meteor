@@ -9,9 +9,12 @@ autopublish
 insecure
 meteorhacks:kadira
 less
-accounts-ui
 angular:angular-material
 urigo:angular
 mquandalle:jade
 bootstrap
 accounts-twitter
+ndxbxrme:ng-coffeescript
+angularui:angular-ui-router
+urigo:angular-ui-router
+iron:router

@@ -1,13 +1,4 @@
 template(name="home")
-    .container.md-whiteframe-z1
-        md-toolbar
-            .md-toolbar-tools
-                h1 Welcome to Meteor!
-                div(flex)
-                +loginButtons
-        md-content.md-padding
-            label(for="name") Name:
-            input#name(type="text" ng-model="name")
-            p You wrote: [[name]]
-            md-button hello
-            
+    section#home
+        div.container
+            h1 hello world
