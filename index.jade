@@ -1,4 +1,8 @@
 head
     title App
     base(href="/")
-body
+body(ng-app="App")
+    div.container
+        h1 If 2 + 5 = [[2+5]], then I'm working :-)
+        p but why isn't the router below showing up?
+        div(ui-router)
