@@ -1,16 +1,13 @@
 Router.route '/(.*)', ->
-    @render 'app'
+    @render 'wrapper'
 
-@App.config [
-  '$stateProvider'
-  '$urlRouterProvider'
-  '$locationProvider'
-  ($stateProvider, $urlRouterProvider, $locationProvider) ->
-    debugger
-    $locationProvider.html5Mode true
-    $urlRouterProvider.otherwise '/'
-    $stateProvider.state('home'
-        url: '/'
-        templateUrl: UiRouter.template('home')
-    )
-]
+# angular.module('App').config [
+#     '$stateProvider', '$urlRouterProvider', '$locationProvider'
+#     ($stateProvider, $urlRouterProvider, $locationProvider) ->
+#         $locationProvider.html5Mode true
+#         $urlRouterProvider.otherwise '/home'
+#         $stateProvider.state('home'
+#             url: '/home'
+#             templateUrl: UiRouter.template 'home'
+#         )
+# ]

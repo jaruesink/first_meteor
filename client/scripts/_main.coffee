@@ -1,11 +1,13 @@
-@App = angular.module('App', [
-  'angular-meteor'
-  'ngMaterial'
-  'ui.router'
+angular.module('App', [
+    'angular-meteor'
+    'ngMaterial'
+    'ui.router'
 ])
 
-@App.config [
-  '$interpolateProvider'
-  ($interpolateProvider) ->
-    $interpolateProvider.startSymbol('[[').endSymbol ']]'
+.config [
+    '$interpolateProvider'
+    ($interpolateProvider) ->
+        $interpolateProvider
+            .startSymbol '[['
+            .endSymbol   ']]'
 ]
