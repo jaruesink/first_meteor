@@ -1,10 +1,10 @@
-angular.module('App', [
+@App = angular.module('App', [
     'angular-meteor'
     'ngMaterial'
     'ui.router'
 ])
 
-.config [
+@App.config [
     '$interpolateProvider'
     ($interpolateProvider) ->
         $interpolateProvider

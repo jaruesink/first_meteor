@@ -1,4 +1,4 @@
-angular.module('App').config [
+@App.config [
     '$stateProvider', '$urlRouterProvider', '$locationProvider'
     ($stateProvider, $urlRouterProvider, $locationProvider) ->
         $locationProvider.html5Mode true
