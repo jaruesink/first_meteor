@@ -5,6 +5,6 @@
         $urlRouterProvider.otherwise '/home'
         $stateProvider.state('home'
             url: '/home'
-            templateUrl: UiRouter.template 'home'
+            templateUrl: 'home'
         )
 ]
