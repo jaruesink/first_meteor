@@ -1,0 +1,8 @@
+template(name="menu")
+    md-sidenav#menu.md-sidenav-right.md-whiteframe-z3(md-component-id="menu")
+        span(ng-controller="menuController as Menu")
+            md-toolbar
+                div.md-toolbar-tools
+                    h1 Menu
+            md-content.layout-padding
+                p [[Menu.hello]]

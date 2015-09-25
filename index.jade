@@ -2,4 +2,6 @@ head
     title App
     base(href="/")
 body(ng-app="App")
-    div(ui-view)
+    div#wrapper(ng-controller="appController as App")
+        +header
+        div(ui-view)

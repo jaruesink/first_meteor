@@ -6,6 +6,6 @@
         $stateProvider.state('home'
             url: '/home'
             templateUrl: 'home'
-            controller: 'homeController as home'
+            controller: 'homeController as Home'
         )
 ]

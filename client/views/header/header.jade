@@ -1,0 +1,6 @@
+template(name="header")
+    +menu
+    header(ng-controller="headerController as Header" layout="row")
+        md-toolbar
+            div.md-toolbar-tools
+                md-button(ng-click="App.toggleMenu()") Toggle Menu
