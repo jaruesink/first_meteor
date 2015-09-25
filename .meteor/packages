@@ -9,7 +9,6 @@ insecure
 meteorhacks:kadira
 less
 angular:angular-material
-urigo:angular
 mquandalle:jade
 bootstrap
 ndxbxrme:ng-coffeescript
@@ -29,3 +28,5 @@ random
 ejson
 spacebars
 check
+fortawesome:fontawesome
+urigo:angular

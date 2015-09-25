@@ -1,6 +1,7 @@
 template(name="header")
     +menu
     header(ng-controller="headerController as Header" layout="row")
-        md-toolbar
-            div.md-toolbar-tools
-                md-button(ng-click="App.toggleMenu()") Toggle Menu
+        md-toolbar.md-whiteframe-z2
+            div.md-toolbar-tools.container
+                h1(flex) App
+                +menu_toggle

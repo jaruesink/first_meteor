@@ -3,6 +3,7 @@ template(name="menu")
         span(ng-controller="menuController as Menu")
             md-toolbar
                 div.md-toolbar-tools
-                    h1 Menu
+                    h1(flex) Menu
+                    +menu_close
             md-content.layout-padding
                 p [[Menu.hello]]
