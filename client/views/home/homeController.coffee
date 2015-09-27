@@ -1,5 +1,5 @@
 @App.controller 'homeController', [
     () ->
-        @hello = 'Hello World'
+        @hello = 'Hello World (Home)'
         return
 ]

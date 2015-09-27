@@ -9,7 +9,6 @@ insecure
 meteorhacks:kadira
 less
 angular:angular-material
-urigo:angular
 mquandalle:jade
 bootstrap
 ndxbxrme:ng-coffeescript
@@ -30,3 +29,7 @@ ejson
 spacebars
 check
 fortawesome:fontawesome
+<<<<<<< HEAD
+=======
+urigo:angular
+>>>>>>> ac45c9813db5e4bea83d3782ebf233be87d16f00
