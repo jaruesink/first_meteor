@@ -1,8 +1,10 @@
 template(name="menu")
-    md-sidenav#menu.md-sidenav-right.md-whiteframe-z3(md-component-id="menu")
+    md-sidenav#menu.md-sidenav-right.md-whiteframe-z3(md-component-id="menu" md-swipe-right="App.toggleMenu()")
         span(ng-controller="menuController as Menu")
             md-toolbar
                 div.md-toolbar-tools
-                    h1 Menu
+                    h1(flex) Menu
+                    md-button(ng-click="App.toggleMenu()").md-icon-button
+                        md-icon.fa.fa-bars
             md-content.layout-padding
                 p [[Menu.hello]]
