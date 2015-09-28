@@ -1,5 +1,5 @@
 template(name="menu")
-    md-sidenav#menu.md-sidenav-right.md-whiteframe-z3(md-component-id="menu")
+    md-sidenav#menu.md-sidenav-right.md-whiteframe-z3(md-component-id="menu" md-swipe-right="App.toggleMenu()")
         span(ng-controller="menuController as Menu")
             md-toolbar
                 div.md-toolbar-tools
