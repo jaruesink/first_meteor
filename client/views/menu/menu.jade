@@ -6,4 +6,7 @@ template(name="menu")
                     h1(flex) Menu
                     +menu_close
             md-content.layout-padding
-                p [[Menu.hello]]
+                md-list
+                    md-list-item(ng-repeat="item in Menu.items" ng-click="App.go([[item.target]])").md-primary
+                        i(class="fa fa-fw fa-[[item.icon]]")
+                        p [[item.label]]
